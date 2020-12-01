@@ -20,7 +20,7 @@ In your Django application, use the following code:
 ```py
 import django_stubs_ext
 
-django_stubs_ext.monkeypath()
+django_stubs_ext.monkeypatch()
 ```
 
 This only needs to be called once, so the call to `monkeypatch` should be placed in your top-level urlconf.
